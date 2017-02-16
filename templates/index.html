@@ -1,0 +1,12 @@
+<table style="border: 1px solid black">
+    <tr style="border: 1px solid black">
+        {% for label in labels %}
+        <th style="border: 1px solid black">{{ label }}</th>
+        {% endfor %}
+    </tr>
+    <tr style="border: 1px solid black">
+        {% for value in values %}
+        <td style="border: 1px solid black">{{ value }}</td>
+        {% endfor %}
+    </tr>
+</table>
